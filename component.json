@@ -2,12 +2,11 @@
   "name": "stomach",
   "repo": "bredele/stomach",
   "description": "Digest strings, nodes and selectors into a dom element.",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "keywords": [],
-  "dependencies": {
-  },
+  "dependencies": {},
   "development": {
-    "component/assert" : "*"
+    "component/assert": "*"
   },
   "license": "MIT",
   "main": "index.js",

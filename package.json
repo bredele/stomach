@@ -1,6 +1,6 @@
 {
   "name": "stomach",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Digest strings, nodes and selectors into a dom element.",
   "main": "index.js",
   "directories": {

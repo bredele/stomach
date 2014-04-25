@@ -1,0 +1,32 @@
+{
+  "name": "stomach",
+  "version": "0.0.0",
+  "description": "Digest strings, nodes and selectors into a dom element.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bredele/stomach.git"
+  },
+  "keywords": [
+    "dom",
+    "html",
+    "node",
+    "string",
+    "selectors"
+  ],
+  "author": "Olivier Wietrich <olivier.wietrich@gmail.com> (http://github.com/bredele)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bredele/stomach/issues"
+  },
+  "homepage": "https://github.com/bredele/stomach",
+  "devDependencies": {
+    "mocha": "^1.18.2"
+  }
+}

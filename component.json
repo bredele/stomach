@@ -6,7 +6,9 @@
   "keywords": [],
   "dependencies": {
   },
-  "development": {},
+  "development": {
+    "component/assert" : "*"
+  },
   "license": "MIT",
   "main": "index.js",
   "scripts": [

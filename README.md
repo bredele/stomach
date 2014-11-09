@@ -17,24 +17,41 @@ with [nodejs](http://nodejs.org):
 
 ## Usage
 
-  Generate HTML from a string:
+### String
+
+Generate DOM from a `HTML string`:
 
 ```js
 var dom = require('stomach');
 var btn = dom('<button>my button</button>');
 ```
-  or select node from a query selector:
+
+  > make sure to trim your template string before.
+
+
+Generate DOM from a `query selection`:
 
 ```js
 var list = dom('#mylist');
 ```
 
-  or simply return a dom node:
+### HTMLElement
+
+  Generate DOM from a `HTMLElement`:
 
 ```js
-var node = dom(document.querySelector('#mylist'));
+var el = document.querySelector('#mylist');
+var node = dom(el);
 ```
 
+You also can clone the returned node:
+
+```js
+var el = document.querySelector('#mylist');
+var node = dom(el, true);
+```
+
+  > it also works with query selection.
 
 ## License
 

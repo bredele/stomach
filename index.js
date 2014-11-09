@@ -29,7 +29,7 @@ module.exports = function(tmpl, bool) {
       div.insertAdjacentHTML('beforeend', tmpl);
       return div.firstChild;
     } 
-    return document.querySelector(tmpl);
+    tmpl = document.querySelector(tmpl);
   }
   if(bool) tmpl = tmpl.cloneNode(true);
   return tmpl;

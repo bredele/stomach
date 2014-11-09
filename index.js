@@ -28,7 +28,7 @@ module.exports = function(tmpl, bool) {
       var div = document.createElement('div');
       div.insertAdjacentHTML('beforeend', tmpl);
       return div.firstChild;
-    } 
+    }
     tmpl = document.querySelector(tmpl);
   }
   if(bool) tmpl = tmpl.cloneNode(true);

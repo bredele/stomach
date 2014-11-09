@@ -15,7 +15,7 @@ describe("string", function() {
 	});
 
 	it("should select node into document", function() {
-		var result = dom('myButton');
+		var result = dom('.myButton');
 		assert.equal(result.nodeName, 'BUTTON');
 		assert.equal(result.innerHTML, 'my button');
 	});
